@@ -1,0 +1,14 @@
+﻿Console.WriteLine("Troca de Variavel");
+string palavra1, palavra2;
+Console.WriteLine("Digite algo");
+palavra1 = Console.ReadLine()!;
+Console.WriteLine("Digite algo novamente");
+palavra2 = Console.ReadLine()!;
+Console.WriteLine("");
+Console.WriteLine($"Palavra 1: {palavra1} ");
+Console.WriteLine($"Palavra 2: {palavra2}");
+Console.WriteLine("");
+Console.WriteLine("Após trocar os valores temos:");
+Console.WriteLine("");
+Console.WriteLine($"Palavra 1: {palavra2} ");
+Console.WriteLine($"Palavra 2: {palavra1}");
